@@ -1,0 +1,62 @@
+@import url('normalize.css');
+
+html{
+	padding:4px;
+	background:url('../img/bg-html.jpg') repeat;
+}
+
+#container{
+	margin:auto;
+	width:950px;
+	overflow:visible;
+}
+
+
+header{
+	width:100%;
+	height:125px;
+	background:transparent;
+}
+
+
+div.mainframe{
+	width:970px;
+	margin-left:-10px;
+}
+
+div.mainframe.head{
+	background:url('../img/wframetop.png') repeat-y;
+	height:28px;
+}
+
+div.mainframe.body{
+	background:url('../img/wframebg.png') repeat-y;
+	min-height:300px;
+}
+
+div.mainframe.foot{
+	background:url('../img/wframebottom.png') repeat-y;
+	height:28px;
+}
+
+#main{
+	width:950px;
+	margin-left:10px;
+	margin-top:-10px;
+	z-index:2;
+	overflow:hidden;
+}
+
+#main .innerpad{
+	padding:8px;
+}
+
+footer{
+	width:100%;
+	height:40px;
+	background:#000;
+}
+
+@import url('helper.css');
+@import url('media.css');
+

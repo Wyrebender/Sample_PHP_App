@@ -1,0 +1,24 @@
+//run stuff on page load. not sure what page event fires. fucking abstracted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

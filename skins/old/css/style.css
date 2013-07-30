@@ -1,0 +1,84 @@
+html, body{
+	padding:0;
+	margin:0;
+	font-family:Arial, helvetica, sans-serif;
+	background:url('../img/bg-html.jpg') repeat;
+}
+
+.clear{clear:both;}
+.red{color:red;}
+
+#mainContainer{
+	width:1200px;
+	height:780px;
+	margin:auto;
+	margin-top:0px;
+	padding-top:8px;
+	background:url('../img/bg-body.jpg') no-repeat transparent;
+	
+}
+
+#pageHeader{
+	width:1000px;
+	margin:auto;
+	background:#fff;
+	border-bottom:2px solid #000;
+}
+
+#pageHeader img.logo,h2.title{
+	padding:40px;
+	float:left;
+	font-size:24px;
+}
+
+#pageContent{
+	width:1000px;
+	min-height:100px;
+	background:#fff;
+	margin:auto;
+	border-top:1px solid #333;
+	border-bottom:1px solid #333;
+}
+
+#pageContent .outerpad{
+	padding:12px;
+}
+
+#pageContent form div.input{
+	padding:4px 0px;
+}
+
+#pageContent form div.input label{
+	float:left;
+	width:120px;
+	text-align:left;
+}
+
+#pageContent form div.input input{
+	float:left;
+	margin:0px 4px;
+}
+
+#pageContent form input.submit{
+	margin-top:8px;
+	min-width:100px;
+	min-height:24px;
+	font-weight:bold;
+	font-size:14px;
+	padding:8px;
+}
+
+#pageFooter{
+	width:1000px;
+	min-height:20px;
+	margin:auto;
+	background:#000;
+	color:#fff;
+}
+
+#pageFooter .name{
+	font-weight:bold;
+	width:980px;
+	text-align:right;
+	
+}
